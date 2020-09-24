@@ -36,6 +36,8 @@ h2:before {
   background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
   -webkit-animation: animate 10s linear forwards;
           animation: animate 10s linear forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes animate {

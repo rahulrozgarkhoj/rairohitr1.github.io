@@ -29,6 +29,7 @@ h2:before {
     height: 120%;
     background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
     animation: animate 10s linear forwards;
+    animation-iteration-count: infinite;
 }
 
 @keyframes animate {
